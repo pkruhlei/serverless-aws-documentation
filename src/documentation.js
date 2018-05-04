@@ -30,7 +30,7 @@ function _mapToObj(map) {
  * the appropriate properties.
  */
 function determinePropertiesToGet (type) {
-  const defaultProperties = ['description', 'summary']
+  const defaultProperties = ['description', 'summary', 'x-example', 'default']
   let result = defaultProperties
   switch (type) {
     case 'API':
